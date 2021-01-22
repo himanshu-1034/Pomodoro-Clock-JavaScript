@@ -1,0 +1,109 @@
+body{
+    background-color: #f78e43;
+}
+
+#mainDiv{
+    height: 560px;
+    width: 320px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: #472710;
+    box-shadow:5px 10px 5px 10px;
+}
+
+#countdownDivBackground{
+    background-color: gray;
+    height: 210px;
+    position: fixed;
+    width: 290px;
+    margin: 15px;
+
+}
+
+#countDownDiv{
+    background-color: white;
+    height: 210px;
+    border: 10px solid cyan;
+    text-align: center;
+    justify-content: center;
+    
+}
+#countDownDiv #countDownTimer{
+    font-size: 50px;
+    color: cyan;
+    position: fixed;
+    z-index: 999;
+    margin-top: 70px;
+    margin-left: -70px;
+}
+
+#sessionBreakHead{
+    position: absolute;
+    top: 48%;
+    color: white;
+    left: 35%;
+    font-size: 20px;
+    border-bottom: 2px dotted gray;
+    border-spacing: 1px;
+}
+
+#sessionDiv{
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    top: 52%;
+    left: 5%;
+    color: cyan;
+}
+
+#breakDiv{
+
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    top: 52%;
+    right: 5%;
+    color: #fc6d05;
+
+}
+
+
+#hr{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 90%;
+}
+
+#startPauseButton{
+    padding: 15px 20px 15px 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    border-radius: 10px;
+    border: black;
+}
+
+#resetButton{
+    padding: 15px 20px 15px 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    border-radius: 10px;
+    border: black;
+}
+
+#breakMinus , #breakPlus, #sessionPlus, #sessionMinus{
+    border: black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 2px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
